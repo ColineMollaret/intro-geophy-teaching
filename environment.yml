@@ -1,0 +1,14 @@
+name: "base"
+channels:
+  - conda-forge
+  - gimli
+dependencies:
+  - h5py
+  - ipywidgets
+  - matplotlib-base
+  - scipy
+  - pywavelets
+  - pygimli=1.5.3
+# - add packages here
+# - one per line
+prefix: "/opt/conda"
